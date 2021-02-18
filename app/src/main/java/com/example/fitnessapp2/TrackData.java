@@ -76,6 +76,9 @@ public class TrackData extends AppCompatActivity {
     }
 
     private void insertData() {
+        String data = textView.getText().toString();
+        userHelper emp =new userHelper(data);
+        reference.push().setValue(data);
         Toast.makeText(TrackData.this,"Data Inserted",Toast.LENGTH_SHORT).show();
     }
 
