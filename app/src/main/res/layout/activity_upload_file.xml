@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadFile">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="185dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="140dp"
+        android:text="Select File" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="210dp"
+        android:layout_height="62dp"
+        android:layout_below="@+id/button1"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="40dp"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="181dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/textView"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:text="Upload" />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="181dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/textView"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="50dp"
+        android:text="View Records" />
+
+
+</RelativeLayout>

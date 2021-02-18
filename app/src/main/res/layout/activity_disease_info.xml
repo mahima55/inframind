@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DiseaseInfo">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:text="Here are some symptoms of various diseases.."
+            android:textSize="20sp"
+            android:fontFamily="@font/amaranth"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/text2"
+            android:layout_below="@+id/text1"
+            android:layout_marginTop="20dp"
+            android:text="1.Many people with prediabetes have no symptoms.But frequent urination and weight gain is common."
+            android:textSize="20sp"
+            android:fontFamily="@font/amaranth"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/text3"
+            android:layout_below="@+id/text2"
+            android:layout_marginTop="20dp"
+            android:text="2.Symptoms of diabetes include excessive thirst or urination, fatigue, weight loss or blurred vision."
+            android:textSize="20sp"
+            android:fontFamily="@font/amaranth"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/text4"
+            android:layout_below="@+id/text3"
+            android:layout_marginTop="20dp"
+            android:text="3.Symptoms of Bronchiectasis include a daily cough that occurs over months or years and daily production of large amounts of phlegm."
+            android:textSize="20sp"
+            android:fontFamily="@font/amaranth"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/text5"
+            android:layout_below="@+id/text4"
+            android:layout_marginTop="20dp"
+            android:text="4.Symptoms of Hypoxemia often includes Shortness of Breathe,Headache,Fast HeartBeat,Coughing,Wheezing,Confusion etc."
+            android:textSize="20sp"
+            android:fontFamily="@font/amaranth"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:id="@+id/text6"
+            android:layout_below="@+id/text5"
+            android:layout_marginTop="20dp"
+            android:text="5. Coronary Heart Disease includes Chest pain or discomfort (angina)
+Weakness, light-headedness, nausea (feeling sick to your stomach), or a cold sweat."
+            android:textSize="20sp"
+            android:fontFamily="@font/amaranth"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/text7"
+            android:layout_below="@+id/text6"
+            android:layout_marginTop="20dp"
+            android:text="6.Asthma may cause difficulty breathing, chest pain, cough and wheezing. The symptoms may sometimes flare up."
+            android:textSize="20sp"
+            android:fontFamily="@font/amaranth"/>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            android:layout_below="@+id/text7"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="120dp"
+            android:text="Next Page"
+            android:textSize="20sp"
+            android:id="@+id/save_data"
+            android:fontFamily="@font/amaranth"/>
+    </RelativeLayout>
+
+
+</ScrollView>

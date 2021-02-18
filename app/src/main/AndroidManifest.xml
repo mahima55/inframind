@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fitnessapp2">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FitnessApp2">
+        <activity android:name=".YogaInfo"></activity>
+        <activity android:name=".ViewDetails" />
+        <activity android:name=".UserHelperClass" />
+        <activity android:name=".UploadFile" />
+        <activity android:name=".TrackData" />
+        <activity android:name=".Stress" />
+        <activity android:name=".Prediabetes" />
+        <activity android:name=".Hypoxemia" />
+        <activity android:name=".DPrediction" />
+        <activity android:name=".downloadpdf" />
+        <activity android:name=".DiseaseInfo" />
+        <activity android:name=".Diabetes" />
+        <activity android:name=".CHD" />
+        <activity android:name=".Chatbot" />
+        <activity android:name=".Bronchiectasis" />
+        <activity android:name=".Asthma" />
+        <activity android:name=".AddData" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
