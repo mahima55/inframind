@@ -25,7 +25,7 @@
             android:id="@+id/imageView2"
             android:layout_width="211dp"
             android:layout_height="128dp"
-
+            app:srcCompat="@drawable/sukhasana"
             android:layout_marginTop="150dp"
             android:layout_marginLeft="80dp"/>
 
@@ -45,7 +45,7 @@ Sukhasana will lengthen your spine and open your hips. It will help you calm dow
             android:layout_width="211dp"
             android:layout_height="128dp"
             android:layout_below="@+id/text2"
-
+            app:srcCompat="@drawable/balasana"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="80dp"/>
 
@@ -65,7 +65,7 @@ Balasana is beneficial for your lymphatic system and nervous system. It will cal
             android:layout_width="211dp"
             android:layout_height="128dp"
             android:layout_below="@+id/text3"
-
+            app:srcCompat="@drawable/pasch"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="80dp"/>
 
@@ -85,7 +85,7 @@ Paschimottanasana will stretch your spine, hamstring and lower back. Apart from 
             android:layout_width="211dp"
             android:layout_height="128dp"
             android:layout_below="@+id/text4"
-
+            app:srcCompat="@drawable/anand"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="80dp"/>
 
@@ -105,7 +105,7 @@ Ananda Balasana will help calm you and get rid of fatigue and stress. It will ge
             android:layout_width="211dp"
             android:layout_height="128dp"
             android:layout_below="@+id/text5"
-
+            app:srcCompat="@drawable/uttana"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="80dp"/>
 
